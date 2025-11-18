@@ -1,0 +1,348 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }.formRegister{
+        margin-left: 50%;
+      box-shadow: 0 0 10px;
+      margin-top: 4px;
+      margin-left: 9%;
+      width: 80%;
+      height: 70%;  
+        }
+
+        label{
+
+margin-left: 30%;
+
+        }
+
+    form{
+        margin-left: 50%;
+      box-shadow: 0 0 10px;
+      margin-top: 4px;
+      margin-left: 9%;
+      width: 80%;
+      height: 70%;
+    }
+    input{
+      outline: none;
+      color: black;
+    }
+    label{
+      color:black ;
+    }
+    div{
+      margin-left: 5%;
+      line-height: 1.4em;
+    }th{
+      background-color: lightgreen;
+      color:blue;
+    }
+  #back{
+    color:chartreuse;
+    background-color:blue;
+  }#back:hover{
+    color:white;
+    background-color:blue;
+  }
+
+
+
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .university-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .date-display {
+            font-size: 14px;
+        }
+        
+        .header-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-right: 20px;
+        }
+        
+        
+        .login-button {
+            background-color: #ffcc00;
+            color: #003366;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .login-button:hover {
+            background-color: #e6b800;
+        }
+        
+        /* Main Content Styles */
+        .main-content {
+            display: flex;
+            margin: 20px 0;
+        }
+        
+        .sidebar {
+            width: 25%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-right: 20px;
+        }
+        
+        .sidebar h3 {
+            color: #003366;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ffcc00;
+        }
+        
+        .sidebar-menu {
+            list-style: none;
+        }
+        
+        .sidebar-menu li {
+            margin-bottom: 10px;
+        }
+        
+        .sidebar-menu a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 8px 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .sidebar-menu a:hover {
+            background-color: #f0f0f0;
+            color: #003366;
+        }
+        
+        .content {
+            width: 75%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .welcome-message {
+            background-color: #e6f2ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .welcome-message h2 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        
+        .features-list {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .features-list li {
+            margin-bottom: 8px;
+        }
+        
+        .login-guideline {
+            background-color: #fff9e6;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Login Form Styles */
+        .login-form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 400px;
+            margin: 50px auto;
+        }
+        
+        .login-form-container h2 {
+            text-align: center;
+            color: #003366;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .btn-primary {
+            background-color: #003366;
+            color: white;
+        }
+        
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+        
+        .btn-link {
+            background: none;
+            border: none;
+            color: #003366;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        /* Academic Status Table */
+        .academic-status {
+            overflow-x: auto;
+        }
+        
+        .records-per-page {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .records-per-page select {
+            margin-left: 10px;
+            padding: 5px;
+        }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .sidebar, .content {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            
+            .header-top, .header-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .header-top > div, .header-bottom > div {
+                margin-bottom: 10px;
+            }
+            
+            nav ul {
+                justify-content: center;
+            }
+            
+            .login-form-container {
+                width: 90%;
+            }
+        }
