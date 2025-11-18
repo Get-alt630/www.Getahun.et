@@ -157,11 +157,12 @@
 
     <script src="./Gebeze.js"></script>
 
-<a href="./Gebeze.php" style="text-decoration: none;">Back to home</a>
+<a href="./index.html" style="text-decoration: none;">Back to home</a>
       <footer>
         <div class="container">
             <p>Copyright 2025</p>
         </div>
     </footer>
 </body>
+
 </html>
